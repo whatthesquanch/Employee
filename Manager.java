@@ -1,18 +1,18 @@
 
 public class Manager extends Employee {
-	private String department;
+	private String departmentA;
 	
 	public String getDepartment() {
-		return department;
+		return departmentA;
 	}
-	public void setDepartment(String department) {
-		this.department = department;
+	public void setDepartment(String departmentA) {
+		this.departmentA = departmentA;
 	}
 	
 	@Override
 	public void employeeSummary() {
 		super.employeeSummary();
-		System.out.println("Department: " + department);
+		System.out.println("Department: " + departmentA);
 
 	}
 
