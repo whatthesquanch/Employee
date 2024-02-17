@@ -14,7 +14,7 @@ public class Test {
 		manager.setLastName("Lyn");
 		manager.setEmployeeID(96819);
 		manager.setSalary(85000.0);
-		manager.setDepartment("Operations");
+		manager.setDepartment("A-Operations");
 		manager.employeeSummary();
 				
 
